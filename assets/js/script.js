@@ -1,10 +1,10 @@
 
 // TOBII JS 
-try {
-    const tobii = new Tobii();
-} catch (err) {
-    console.log(err);
-}
+// try {
+//     const tobii = new Tobii();
+// } catch (err) {
+//     console.log(err);
+// }
 
 // FUNCTION CALLING
 scrollMode();
