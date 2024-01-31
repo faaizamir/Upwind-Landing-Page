@@ -1453,7 +1453,7 @@
     </div>
 
     <!-- Scroll to TOP BUTTON  -->
-    <div onclick="topFunction()"
+    <div 
         class="back-to-top fixed text-lg rounded-full z-10 bottom-5 end-5 h-9 w-9 text-center bg-orange-600 text-white leading-9 hidden hover:cursor-pointer"
         id="backToTop">
         <i class="uil uil-arrow-up"></i>
@@ -1461,12 +1461,29 @@
 
 
     <!-- JAVASCRIPTS -->
-    <script src="./assets/js/tobii.min.js" type="module"></script>
+    <script src="./assets/js/tobii.min.js"></script>
     <script src="https://kit.fontawesome.com/259915cf3a.js" crossorigin="anonymous" type="module"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js" type="module"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js" type="module"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" type="module"></script>
-    <script src="./assets/js/script.js" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="./assets/js/script.js" type="module" ></script>
+
+    <script type="module">  
+        try {
+            const tobii = new Tobii()
+        } catch (err) {
+            console.log(err);
+        }
+
+        
+        var typed = new Typed("#typed", {
+            strings: ["Business.", "Startups.", "Marketing.", "Digital Agency."],
+            typeSpeed: 70,
+            backSpeed: 70,
+            backDelay: 2000,
+            loop: true
+        });
+    </script>
 </body>
 
 </html>

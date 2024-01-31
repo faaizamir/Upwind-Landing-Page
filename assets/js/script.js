@@ -1,23 +1,23 @@
 
 // TOBII JS 
-try {
-    const tobii = new Tobii()
-} catch (err) {
-    console.log(err);
-}
+// try {
+//     const tobii = new Tobii()
+// } catch (err) {
+//     console.log(err);
+// }
 
 // FUNCTION CALLING
 scrollMode();
 
 
 // TYPED JS
-var typed = new Typed("#typed", {
-    strings: ["Business.", "Startups.", "Marketing.", "Digital Agency."],
-    typeSpeed: 70,
-    backSpeed: 70,
-    backDelay: 2000,
-    loop: true
-});
+// var typed = new Typed("#typed", {
+//     strings: ["Business.", "Startups.", "Marketing.", "Digital Agency."],
+//     typeSpeed: 70,
+//     backSpeed: 70,
+//     backDelay: 2000,
+//     loop: true
+// });
 
 
 // DARK AND LIGHT MODE 
@@ -116,9 +116,9 @@ function scrollFunction() {
     }
 }
 
-function topFunction() {
+document.getElementById("backToTop").addEventListener('click', ()=>{
     // document.body.scrollTop = 0;
     document.body.scrollTo({ top: 0, behavior: 'smooth' });
     // document.documentElement.scrollTop = 0;
     document.documentElement.scrollTo({ top: 0, behavior: 'smooth' });
-}
+});
