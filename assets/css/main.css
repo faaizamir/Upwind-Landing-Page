@@ -98,3 +98,10 @@
     outline: transparent solid 2px;
     outline-offset: 2px;
 }
+
+.mySwiper::part(button-prev){
+    color: #c2410c !important;
+}
+.mySwiper::part(button-next){
+    color: #c2410c !important;
+}

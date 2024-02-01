@@ -1,23 +1,6 @@
 
-// TOBII JS 
-// try {
-//     const tobii = new Tobii();
-// } catch (err) {
-//     console.log(err);
-// }
-
 // FUNCTION CALLING
 scrollMode();
-
-
-// TYPED JS
-// var typed = new Typed("#typed", {
-//     strings: ["Business.", "Startups.", "Marketing.", "Digital Agency."],
-//     typeSpeed: 70,
-//     backSpeed: 70,
-//     backDelay: 2000,
-//     loop: true
-// });
 
 
 // DARK AND LIGHT MODE 
